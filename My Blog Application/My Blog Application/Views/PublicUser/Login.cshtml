@@ -1,0 +1,31 @@
+﻿@model My_Blog_Application.Models.PublicUser
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form  asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" required class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" required  type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-warning btn-lg btn-block" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a  asp-controller="Home" asp-action="Index">Main Menu</a>
+</div>
+

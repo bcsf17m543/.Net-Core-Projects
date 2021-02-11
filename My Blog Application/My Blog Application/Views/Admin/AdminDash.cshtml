@@ -1,0 +1,55 @@
+﻿@model IEnumerable<My_Blog_Application.Models.PublicUser>
+
+@{
+    ViewData["Title"] = "AdminDash";
+}
+
+<h1>AdminDash</h1>
+
+<p>
+    <a asp-action="Index">Log Out</a>
+</p>
+<a class="btn btn-info" asp-action="AddUser">Add User</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Update" asp-route-id="@item.id">Update</a>  |
+                    <a class="btn btn-danger" asp-action="Remove" asp-route-id="@item.id">Remove</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

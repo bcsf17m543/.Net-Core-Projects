@@ -1,0 +1,48 @@
+﻿@model My_Blog_Application.Models.PublicUser
+
+@{
+    ViewData["Title"] = "HomePage";
+
+}
+@{ 
+    string NameKey = Model.Name;
+}
+<nav class="navbar navbar-expand-lg navbar-light rounded border border-dark bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-action="HomePage">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" asp-action="Profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" asp-controller="Home" asp-action="Index">LogOut</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br />
+<br />
+
+<h1>HomePage</h1>
+
+<div class="container">
+    <h4>Hello @NameKey</h4>
+    <hr />
+    
+    <a class="btn btn-info btn-lg btn-block" asp-route-id="@NameKey" asp-action="CreateBlog">Create Post</a>
+    <br/>
+    <a class="btn btn-warning btn-lg btn-block" asp-action="ViewAllBlogs">View All Blogs</a>
+    <br/>
+    <a class="btn btn-danger btn-lg btn-block" asp-route-id="@NameKey" asp-action="ViewMyBlogs">View My Blogs</a>
+</div>
+<div>
+    <a asp-controller="Home" asp-action="Index">Logout</a>
+</div>

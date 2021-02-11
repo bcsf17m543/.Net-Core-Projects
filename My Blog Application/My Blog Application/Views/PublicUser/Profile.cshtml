@@ -1,0 +1,59 @@
+﻿@model My_Blog_Application.Models.Profile
+
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1>Profile</h1>
+
+<h4>Profile</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Profile">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="text-center">
+                <img src="@Model.ImagePath" class="rounded">
+            </div>
+            <div class="form-group">
+                <label asp-for="Emailaddress" class="control-label"></label>
+                <input asp-for="Emailaddress" class="form-control" />
+                <span asp-validation-for="Emailaddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImagePath" class="control-label"></label>
+                <input asp-for="ImagePath" class="form-control" />
+                <span asp-validation-for="ImagePath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usrinfo.Name" class="control-label"></label>
+                <input asp-for="Usrinfo.Name" readonly class="form-control" />
+                <span asp-validation-for="Usrinfo.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usrinfo.Password" class="control-label"></label>
+                <input asp-for="Usrinfo.Password"  type="password" class="form-control" />
+                <span asp-validation-for="Usrinfo.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usrinfo.ConfirmPassword" class="control-label"></label>
+                <input asp-for="Usrinfo.ConfirmPassword" type="password" class="form-control" />
+                <span asp-validation-for="Usrinfo.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usrinfo.Phone" class="control-label"></label>
+                <input asp-for="Usrinfo.Phone" class="form-control" />
+                <span asp-validation-for="Usrinfo.Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save Profile" class="btn btn-outline-danger" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="HomePage">Main Menu</a>
+</div>
+

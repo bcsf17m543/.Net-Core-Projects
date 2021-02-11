@@ -1,0 +1,55 @@
+﻿@model List<My_Blog_Application.Models.Stream>
+
+@{
+    ViewData["Title"] = "ViewAllBlogs";
+}
+
+
+<h1>ViewAllBlogs</h1>
+
+<table class="table table-hover table-striped">
+    <thead>
+       
+    </thead>
+    <tbody>
+        @foreach (My_Blog_Application.Models.Stream item in Model)
+        {
+
+            <tr>
+                <th class="btn btn-outline-warning rounded-circle">
+                    @item.oneUser.Name
+                </th>
+
+            </tr>
+            @foreach (var blog in @item.AllBlogs)
+            {
+                <tr>
+
+                    <td>
+                        <div class="rounded-circle">
+                            <img src="@item.imgPath" >
+                        </div>
+                    </td>
+                    <td>
+                        <div style="color :lightpink">
+                            @blog.Date
+                        </div>
+                    </td>
+
+                    <td>@blog.Title </td>
+               
+                    <td>
+                        <div class="rounded-circle">
+                            @blog.Content
+                        </div>
+                    </td>
+                   
+                </tr>
+            }
+
+
+        }
+
+
+    </tbody>
+</table>

@@ -1,0 +1,45 @@
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Online Grocery Store.exe
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Online Grocery Store.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\AdminView.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\CustomerView.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\HomeView.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\ProductView.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\ReceiptView.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\SampleWindow.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store_MarkupCompile.cache
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store_MarkupCompile.lref
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\AdminView.baml
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\CustomerView.baml
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\HomeView.baml
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\ProductView.baml
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\ReceiptView.baml
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Views\SampleWindow.baml
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store.g.resources
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store.AssemblyInfo.cs
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store.csproj.CopyComplete
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store.dll
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store.pdb
+C:\Users\hp\source\repos\Online Grocery Store\Online Grocery Store\obj\Debug\netcoreapp3.1\Online Grocery Store.csprojAssemblyReference.cache

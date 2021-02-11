@@ -1,0 +1,44 @@
+﻿<Window x:Class="Online_Grocery_Store.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Online_Grocery_Store"
+        mc:Ignorable="d"
+        Title="Online Grocery Store" Height="550" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Menu FontSize="20" >
+            <MenuItem Header="File" >
+                <MenuItem Header="Customer"
+                          Command="{Binding UpdateViewCommand}" 
+                    CommandParameter="Customer"
+                          ></MenuItem>
+                <MenuItem Header="Admin"
+                          Command="{Binding UpdateViewCommand}"
+                CommandParameter="Admin"
+                          ></MenuItem>
+
+            </MenuItem>
+        </Menu>
+        <TextBlock Text="Online Grocery Store" FontSize="50" Foreground="HotPink" FontStyle="Oblique" Margin="0,20,0,0"></TextBlock>
+        <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Grid.Row="1">
+            <Button Command="{Binding UpdateViewCommand}" 
+                    CommandParameter="Home"
+                    Margin="20" Content="Home" FontSize="20" ></Button>
+            <Button Command="{Binding UpdateViewCommand}" 
+                    CommandParameter="Customer"
+                    Margin="20" Content="Customer" FontSize="20" ></Button>
+            <Button Command="{Binding UpdateViewCommand}"
+                CommandParameter="Admin"
+                Margin="20" Content="Admin" FontSize="20" ></Button>
+        </StackPanel>
+        <ContentControl Grid.Row="2" Content="{Binding SelectedViewModel}" ></ContentControl>
+    </Grid>
+</Window>

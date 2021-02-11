@@ -1,0 +1,21 @@
+﻿<Application x:Class="Online_Grocery_Store.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Online_Grocery_Store"
+             xmlns:views="clr-namespace:Online_Grocery_Store.Views"
+             xmlns:viewModels="clr-namespace:Online_Grocery_Store.ViewModels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type viewModels:CustomerViewModel}">
+            <views:CustomerView></views:CustomerView>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:AdminViewModel}">
+                <views:AdminView></views:AdminView>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:HomeViewModel}">
+            <views:HomeView/>
+
+        </DataTemplate>
+       
+    </Application.Resources>
+</Application>

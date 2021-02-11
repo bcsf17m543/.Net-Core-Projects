@@ -1,0 +1,14 @@
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\bin\Debug\netcoreapp3.1\ATM_BLL.deps.json
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\bin\Debug\netcoreapp3.1\ATM_BLL.dll
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\bin\Debug\netcoreapp3.1\ATM_BLL.pdb
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\bin\Debug\netcoreapp3.1\ATM_BO.dll
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\bin\Debug\netcoreapp3.1\ATM_DAL.dll
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\bin\Debug\netcoreapp3.1\ATM_BO.pdb
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\bin\Debug\netcoreapp3.1\ATM_DAL.pdb
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\obj\Debug\netcoreapp3.1\ATM_BLL.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\obj\Debug\netcoreapp3.1\ATM_BLL.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\obj\Debug\netcoreapp3.1\ATM_BLL.AssemblyInfo.cs
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\obj\Debug\netcoreapp3.1\ATM_BLL.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\obj\Debug\netcoreapp3.1\ATM_BLL.csproj.CopyComplete
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\obj\Debug\netcoreapp3.1\ATM_BLL.dll
+C:\Users\hp\source\repos\ATM_System\ATM_BLL\obj\Debug\netcoreapp3.1\ATM_BLL.pdb

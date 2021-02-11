@@ -1,0 +1,16 @@
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_View.deps.json
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_View.dll
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_View.pdb
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_BLL.dll
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_BO.dll
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_DAL.dll
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_BLL.pdb
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_BO.pdb
+C:\Users\hp\source\repos\ATM_System\ATM_View\bin\Debug\netcoreapp3.1\ATM_DAL.pdb
+C:\Users\hp\source\repos\ATM_System\ATM_View\obj\Debug\netcoreapp3.1\ATM_View.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\ATM_System\ATM_View\obj\Debug\netcoreapp3.1\ATM_View.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\ATM_System\ATM_View\obj\Debug\netcoreapp3.1\ATM_View.AssemblyInfo.cs
+C:\Users\hp\source\repos\ATM_System\ATM_View\obj\Debug\netcoreapp3.1\ATM_View.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\ATM_System\ATM_View\obj\Debug\netcoreapp3.1\ATM_View.csproj.CopyComplete
+C:\Users\hp\source\repos\ATM_System\ATM_View\obj\Debug\netcoreapp3.1\ATM_View.dll
+C:\Users\hp\source\repos\ATM_System\ATM_View\obj\Debug\netcoreapp3.1\ATM_View.pdb
